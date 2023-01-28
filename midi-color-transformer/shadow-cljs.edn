@@ -1,0 +1,16 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/main"]
+
+ :dependencies
+ [[com.github.pkpkpk/cljs-node-io "2.0.332"]
+  [djblue/portal "0.35.0"]
+  [com.rpl/specter "1.1.4"]
+  [com.cognitect/transit-cljs "0.8.280"]
+  [com.taoensso/tufte "2.4.5"]]
+
+ :builds
+ {:midi-color-updater
+  {:target :node-script
+   :main midi-color-updater/main
+   :output-to "out/midi_color_updater.js"}}}
