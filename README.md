@@ -1,7 +1,8 @@
 # midi-viz
 
-## quickstart
 - TODO
+
+## quickstart
 - install the dependencies as usual with leiningen and shadow-cljs
 - build the update script in the `midi-color-transformer` dir with `npx shadow-cljs release midi-color-updater`
 - open cljs and clj repl
